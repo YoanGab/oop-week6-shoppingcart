@@ -19,6 +19,10 @@ namespace oop_week6_shoppingcart
 
         public void AddProduct(product prod)
         {
+            if(prod.Name == "apple")
+            {
+                Products.Add(prod);
+            }
             Products.Add(prod);
         }
 
@@ -26,6 +30,10 @@ namespace oop_week6_shoppingcart
         {
             for(int i = 0; i < prod.Length; i++)
             {
+                if (prod[i].Name == "apple")
+                {
+                    Products.Add(prod[i]);
+                }
                 Products.Add(prod[i]);
             }
         }
@@ -33,9 +41,34 @@ namespace oop_week6_shoppingcart
         public double getPrice()
         {
             double price = 0;
+            int appleCount = 0;
+            int orangeCount = 0;
             for (int i = 0; i < Products.Count; i++)
             {
-                price += Products[i].Price;
+                if(Products[i].Name == "apple")
+                {
+                    if(appleCount % 2 == 0)
+                    {
+                        price += Products[i].Price;
+                        appleCount++;
+                    }
+                    else
+                    {
+                        appleCount++;
+                    }
+                }
+                else if (Products[i].Name == "orange")
+                {
+                    orangeCount++;
+                    if(orangeCount % 3 != 0)
+                    {
+                        price += Products[i].Price;
+                    }
+                }
+                else
+                {
+                    price += Products[i].Price;
+                }
             }
             return price;
         }
