@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{9FF2E5FC-B3D0-42B5-AC62-194330D49AE4}|Default">
+  <MonoDevelop.Ide.ItemProperties.oop-week6-shoppingcart FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="oop-week6-shoppingcart/shoppingCart.cs">
+    <Files>
+      <File FileName="oop-week6-shoppingcart/Program.cs" Line="10" Column="56" />
+      <File FileName="oop-week6-shoppingcart/product.cs" Line="2" Column="18" />
+      <File FileName="oop-week6-shoppingcart/shoppingCart.cs" Line="7" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="oop-week6-shoppingcart" expanded="True">
+            <Node name="oop-week6-shoppingcart" expanded="True">
+              <Node name="shoppingCart.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

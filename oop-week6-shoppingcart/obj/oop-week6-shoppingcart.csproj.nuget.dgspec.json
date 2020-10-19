@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/yoangabison/OneDrive - De Vinci/Ecole/A3/S5/POO/oop-week6-shoppingcart/oop-week6-shoppingcart/oop-week6-shoppingcart.csproj": {}
+  },
+  "projects": {
+    "/Users/yoangabison/OneDrive - De Vinci/Ecole/A3/S5/POO/oop-week6-shoppingcart/oop-week6-shoppingcart/oop-week6-shoppingcart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yoangabison/OneDrive - De Vinci/Ecole/A3/S5/POO/oop-week6-shoppingcart/oop-week6-shoppingcart/oop-week6-shoppingcart.csproj",
+        "projectName": "oop-week6-shoppingcart",
+        "projectPath": "/Users/yoangabison/OneDrive - De Vinci/Ecole/A3/S5/POO/oop-week6-shoppingcart/oop-week6-shoppingcart/oop-week6-shoppingcart.csproj",
+        "packagesPath": "/Users/yoangabison/.nuget/packages/",
+        "outputPath": "/Users/yoangabison/OneDrive - De Vinci/Ecole/A3/S5/POO/oop-week6-shoppingcart/oop-week6-shoppingcart/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yoangabison/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
