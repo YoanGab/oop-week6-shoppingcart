@@ -1,20 +1,24 @@
 ﻿<Properties StartupConfiguration="{9FF2E5FC-B3D0-42B5-AC62-194330D49AE4}|Default">
-  <MonoDevelop.Ide.ItemProperties.oop-week6-shoppingcart FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="oop-week6-shoppingcart/shoppingCart.cs">
+  <MonoDevelop.Ide.ItemProperties.oop-week6-shoppingcart PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="oop-week6-shoppingcart/Coupon.cs">
     <Files>
-      <File FileName="oop-week6-shoppingcart/Program.cs" Line="10" Column="56" />
-      <File FileName="oop-week6-shoppingcart/product.cs" Line="2" Column="18" />
-      <File FileName="oop-week6-shoppingcart/shoppingCart.cs" Line="7" Column="10" />
+      <File FileName="oop-week6-shoppingcart/Program.cs" Line="43" Column="36" />
+      <File FileName="oop-week6-shoppingcart/product.cs" Line="12" Column="27" />
+      <File FileName="oop-week6-shoppingcart/shoppingCart.cs" Line="86" Column="26" />
+      <File FileName="oop-week6-shoppingcart/Coupon.cs" Line="6" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="oop-week6-shoppingcart" expanded="True">
             <Node name="oop-week6-shoppingcart" expanded="True">
-              <Node name="shoppingCart.cs" selected="True" />
+              <Node name="Coupon.cs" selected="True" />
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

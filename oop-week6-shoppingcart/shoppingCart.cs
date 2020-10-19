@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace oop_week6_shoppingcart
 {
-    public class shoppingCart
+    public class shoppingCart : ICoupon
     {
-        List<product> Products { get; set; }
+        public List<product> Products { get; set; }
 
         public shoppingCart()
         {
@@ -41,35 +41,12 @@ namespace oop_week6_shoppingcart
         public double getPrice()
         {
             double price = 0;
-            int appleCount = 0;
-            int orangeCount = 0;
             for (int i = 0; i < Products.Count; i++)
             {
-                if(Products[i].Name == "apple")
-                {
-                    if(appleCount % 2 == 0)
-                    {
-                        price += Products[i].Price;
-                        appleCount++;
-                    }
-                    else
-                    {
-                        appleCount++;
-                    }
-                }
-                else if (Products[i].Name == "orange")
-                {
-                    orangeCount++;
-                    if(orangeCount % 3 != 0)
-                    {
-                        price += Products[i].Price;
-                    }
-                }
-                else
-                {
-                    price += Products[i].Price;
-                }
+                price += Products[i].Price;
             }
+            ICoupon coupon = new shoppingCart();
+            price -= coupon.calculateDiscount(Products);
             return price;
         }
 
@@ -81,6 +58,12 @@ namespace oop_week6_shoppingcart
                 content += Products[i].Name + " ";
             }
             return content;
+        }
+
+        public void print()
+        {
+            Console.WriteLine("Your shopping cart contains : " + getContent());
+            Console.WriteLine("Its price is : " + getPrice() + "euros");
         }
     }
 }
